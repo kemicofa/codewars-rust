@@ -1,1 +1,0 @@
-/Users/anonymous/Documents/rust/codewars-rust/number-of-trailing-zeros-of-n/target/debug/number_of_trailing_zeros_of_n-ab732ffccf77a22b: /Users/anonymous/Documents/rust/codewars-rust/number-of-trailing-zeros-of-n/src/main.rs
