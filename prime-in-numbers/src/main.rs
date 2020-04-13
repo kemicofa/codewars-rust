@@ -6,22 +6,6 @@
 //
 // Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
 
-// fn is_prime(n: i64) -> bool {
-//     if n <= 1 { false }
-//     else {
-//         let threshold = n / 2;
-//         let cur = 2;
-//         while cur <= threshold {
-//             if n % cur != 0 {
-//                 false
-//             } else {
-//                 cur += 1;
-//             }
-//         }
-//         true
-//     }
-// }
-
 fn prime_factors(n: i64) -> String {
     let mut res = String::new();
     let mut rest = n;
