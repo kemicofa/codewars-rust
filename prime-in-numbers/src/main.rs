@@ -10,7 +10,7 @@ fn prime_factors(n: i64) -> String {
     let mut res = String::new();
     let mut rest = n;
     // only need to test up to half of the given number
-    for i in 2..(n/2) {
+    for i in 2..rest {
         // no need to test if (i) is prime
         // since 2 will take care of all its higher multiples (4, 6, 8, ...)
         if rest % i == 0 {
